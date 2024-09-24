@@ -6,8 +6,10 @@ authors = ["roberto <robertoventura.rvs@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.12,<3.14"
+pyinstaller = "^6.10.0"
 pandas = "^2.2.3"
+customtkinter = "^5.2.2"
 
 
 [build-system]
